@@ -7,6 +7,7 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif !important;
   outline: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 html,
@@ -188,8 +189,8 @@ body {
       display: flex;
       align-items: center;
       height: 19px;
-      svg {
-        margin-left: 3px;
+      span {
+        margin-right: 3px;
       }
     }
     .username {
