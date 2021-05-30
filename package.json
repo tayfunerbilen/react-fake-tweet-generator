@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "html2canvas": "^1.0.0-rc.5",
+    "react": "^17.0.0",
+    "react-content-loader": "^6.0.3",
+    "react-dom": "^17.0.0",
+    "sass": "^1.34.0",
+    "use-react-screenshot": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
