@@ -222,7 +222,7 @@ export default function App() {
             {(avatar && <img src={avatar} />) || <AvatarLoader />}
             <div>
               <div className="name">
-                {name || 'Ad Soyad'}
+                <span>{name || 'Ad Soyad'}</span>
                 {isVerified == 1 && <VerifiedIcon width="19" height="19" />}
               </div>
               <div className="username">@{username || 'kullaniciadi'}</div>
