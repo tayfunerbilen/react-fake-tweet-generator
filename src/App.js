@@ -33,7 +33,7 @@ const tweetFormat = tweet => {
     .replace(/@([\w]+)/g, '<span>@$1</span>')
     .replace(/#([\wşçöğüıİ]+)/gi, '<span>#$1</span>')
     .replace(/(https?:\/\/[\w\.\/]+)/, '<span>$1</span>')
-    .replace(/\n/, '<br />');
+    .replace(/\n/g, '<br />');
   return tweet;
 };
 
